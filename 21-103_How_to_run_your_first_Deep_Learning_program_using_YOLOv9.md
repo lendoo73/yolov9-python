@@ -3,23 +3,22 @@
 Object detection on an image:
 ```shell
 python detection.py \
-    --weights path/to/model.onnx \
+    --weights yolov9-c-converted.onnx \
     --source data/images/horses.jpg
 ```
 
 Object detection on a video:
 ```shell
 python detection.py \
-    --weights path/to/model.onnx \
+    --weights yolov9-c-converted.onnx \
     --source data/videos/road.mp4
 ```
 
 Object detection on webcam:
 ```shell
 python detection.py \
-    --weights path/to/model.onnx \
+    --weights yolov9-c-converted.onnx \
     --source 0
 ```
 
-Model weights are not included in this repository. Supply a compatible YOLOv9 ONNX model using
-`--weights`, and follow the model provider's terms.
+The `yolov9-c-converted.onnx` model is included. Check the model provider's terms before reuse.

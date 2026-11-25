@@ -10,6 +10,7 @@ __pycache__/
 secrets.md
 
 *.onnx
+!yolov9-c-converted.onnx
 *.pt
 *.pth
 *.weights
