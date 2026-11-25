@@ -1,0 +1,16 @@
+.venv/
+venv/
+.idea/
+__pycache__/
+*.py[cod]
+
+.env
+.env.*
+!.env.example
+secrets.md
+
+*.onnx
+*.pt
+*.pth
+*.weights
+
